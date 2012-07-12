@@ -11,9 +11,9 @@ String.prototype.toNumber = function() {
 }
 
 Number.prototype.isOdd = function() {
-    return this % 2 == 1;
+    return !!(this % 2);
 };
 
 Number.prototype.isEven = function() {
-    return this % 2 == 0;
+    return !(this % 2);
 };
