@@ -20,7 +20,7 @@ Number.prototype.isEven = function() {
 
 Number.prototype.greaterThan = function(num) {
     return this > num;
-};
+}
 
 Number.prototype.smallerThan = function(num) {
     return this < num;
