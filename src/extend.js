@@ -6,22 +6,10 @@ Array.prototype.first = function() {
     return this[0];
 }
 
-String.prototype.toNumber = function() {
-    return Number(this);
-}
-
 Number.prototype.isOdd = function() {
     return !!(this % 2);
 }
 
 Number.prototype.isEven = function() {
     return !(this % 2);
-}
-
-Number.prototype.greaterThan = function(num) {
-    return this > num;
-}
-
-Number.prototype.smallerThan = function(num) {
-    return this < num;
 }
