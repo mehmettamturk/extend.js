@@ -12,8 +12,16 @@ String.prototype.toNumber = function() {
 
 Number.prototype.isOdd = function() {
     return !!(this % 2);
-};
+}
 
 Number.prototype.isEven = function() {
     return !(this % 2);
+}
+
+Number.prototype.greaterThan = function(num) {
+    return this > num;
 };
+
+Number.prototype.smallerThan = function(num) {
+    return this < num;
+}
